@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Header Styling */
+.header_section {
+    background-color: #fff; /* White background */
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    color: #007084; /* Custom blue */
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #005963; /* Darker blue on hover */
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+
+
+
+
+
+/* Kitchens Page Title */
+.kitchens_page_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    color: #333;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.kitchens_page_title span {
+    color: #007084; /* Blue highlight */
+}
+
+/* Kitchens Section Styles */
+.kitchens_section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.kitchens_section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kitchens_section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Kitchen Item Cards */
+.kitchen_item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 30px;
+}
+
+.kitchen_item:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Image Styling */
+.kitchen_item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+}
+
+/* Kitchen Item Details */
+.kitchen_item .kitchen_name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+    padding: 20px 0;
+}
+
+.kitchen_item .kitchen_price {
+    text-align: center;
+    font-size: 18px;
+    color: #007084;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .kitchens_page_title {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .kitchens_section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kitchen_item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .kitchen_item img {
+        height: 180px;
+    }
+}
+
+/* Footer Section */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer_section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_section .footer_logo img {
+    max-width: 150px;
+}
+
+.footer_section h1.customer_text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer_section p.footer_lorem_text, .footer_section p.footer_lorem_text1 {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer_section .input-group {
+    width: 250px;
+}
+
+.footer_section .input-group-append span {
+    background-color: #007084;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer_section .input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer_section .social_icon ul {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_section .social_icon ul li a img {
+    width: 24px;
+    height: auto;
+}
+
+/* Copyright Section */
+.copyright_section {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright_section .social_icon ul {
+    justify-content: center;
+    gap: 20px;
+}
+
+.copyright_section .copyright_text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Search Icon */
+.search_icon {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.search_icon ul li a img {
+    width: 20px;
+    height: auto;
+}
